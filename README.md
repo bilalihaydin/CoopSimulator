@@ -28,7 +28,7 @@
 -Her döngüde tavşanların ölümü gerçekleşebilir.Bu olay ise tavşanın verimli yaşına yakınlığı ile doğru orantılıdır. İdeal yaşına uzak olan tavşan ölüm ihtimali yükselmektedir.(İdeal Yaş 150 gün).
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-İdeal yaşa göre hesaplanan algoritmada aşağıda belirttiğim sabit oranlardan yararlanılmıştır.
+İdeal yaşa göre hesaplanan algoritmada aşağıda belirtilen sabit oranlardan yararlanılmıştır.
 
 #
 public static double[] possibilities = { 0.36, 0.23, 0.20, 0.15, 0.10, 0.05, 0.01, 0.003 };
