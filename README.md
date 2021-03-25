@@ -1,5 +1,5 @@
 # Kümes Hayvanları Simülasyon Çalışması
--Proje kümes hayvanlarının yaşam dönhüsünü gerçekleştirmeye yönelik bir simülasyon çalışmasıdır.
+-Proje kümes hayvanlarının yaşam döngüsünü gerçekleştirmeye yönelik bir simülasyon çalışmasıdır.
 -Proje App seviyesinde tavşan örneği ile çalıştırılmıştır.
 -İlk olarak 1 erkek ve 1 dişi tavşan bulunması senaryosu ile başlamıştır.
 -Belirtilen bir yaşam döngüsü(Gün) vardır.Yaşam döngüsünün kaç gün çalışacağı yer almıştır.Bu bilgi appsetting dosyasından alınmaktadır.
