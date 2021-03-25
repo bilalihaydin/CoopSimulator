@@ -2,7 +2,7 @@
 -Proje kümes hayvanlarının yaşam döngüsünü gerçekleştirmeye yönelik bir simülasyon çalışmasıdır.
 -Proje App seviyesinde tavşan örneği ile çalıştırılmıştır.
 -İlk olarak 1 erkek ve 1 dişi tavşan bulunması senaryosu ile başlamıştır.
--Belirtilen bir yaşam döngüsü(Gün) vardır.Yaşam döngüsünün kaç gün çalışacağı yer almıştır.Bu bilgi appsetting dosyasından alınmaktadır.
+-Belirtilen bir yaşam döngüsü(Gün) vardır.Yaşam döngüsünün kaç gün çalışacağı bilgisi appsetting dosyasından alınmaktadır.
 -Kümes hayvanları için yaşam döngünsünde sırası ile çiftleşme, doğum ve ölüm olayları bulunmaktadır bu olayların sonucunda zaman bir gün ileri gitmektedir.
 
 # Çiftleşme Olayı
