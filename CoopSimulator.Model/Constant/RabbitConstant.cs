@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CoopSimulator.Service.Constant
+﻿namespace CoopSimulator.Service.Constant
 {
     public static class RabbitConstant
     {

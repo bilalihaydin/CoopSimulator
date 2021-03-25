@@ -1,17 +1,17 @@
 ﻿using CoopSimulator.App;
-using CoopSimulator.Service.Extension;
+using CoopSimulator.Model.Core;
+using CoopSimulator.Service.Concrete;
+using CoopSimulator.Service.Constant;
 using CoopSimulator.Service.Enum;
+using CoopSimulator.Service.Extension;
+using CoopSimulator.Service.Services.Lifecycle;
+using CoopSimulator.Service.Validator.Rabbit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.IO;
-using CoopSimulator.Model.Core;
 using System.Collections.Generic;
-using CoopSimulator.Service.Concrete;
-using CoopSimulator.Service.Constant;
-using CoopSimulator.Service.Services.Lifecycle;
+using System.IO;
 using System.Linq;
-using CoopSimulator.Service.Validator.Rabbit;
 
 namespace CoopSimulator
 {
@@ -25,13 +25,11 @@ namespace CoopSimulator
             public SimulatorApp()
             {
                 IConfiguration config = new ConfigurationBuilder().SetBasePath(Path.Combine(AppContext.BaseDirectory))
-               .AddJsonFile("appconfig.json", true, true)
+               .AddJsonFile("appsettings.json", true, true)
                .Build();
 
                 int timeSpend = Convert.ToInt32(config.GetSection("SimulationDayLife").Value);
-
-                EndDate = StartDate.AddDays(100);
-
+                EndDate = StartDate.AddDays(timeSpend);
                 PoultryList = new List<IPoultry>()
                 {
                     new Poultry() { BirthDate = StartDate.AddYears(-1), isMale = true, isPregnant = false, PoultryEnum = (int)PoultryEnum.Rabbit },

@@ -3,7 +3,6 @@ using CoopSimulator.Service.Enum;
 using CoopSimulator.Service.Services.Lifecycle;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CoopSimulator.Service.Extension
 {

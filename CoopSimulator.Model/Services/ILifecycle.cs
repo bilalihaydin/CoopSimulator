@@ -1,7 +1,6 @@
 ﻿using CoopSimulator.Model.Core;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CoopSimulator.Service.Services.Lifecycle
 {

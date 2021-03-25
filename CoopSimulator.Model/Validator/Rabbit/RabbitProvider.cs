@@ -44,7 +44,7 @@ namespace CoopSimulator.Service.Validator.Rabbit
 
             return RabbitConstant.PregnancyRate > FindProbabilityPregnant();
         }
-        
+
         private double FindProbabilityPregnant()
         {
             int rate = FindRateEfficiency();
