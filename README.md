@@ -16,15 +16,15 @@
           2- Hamile olmaması
           3- Emzirme döneminde olmaması (hamilelikten sonraki 5 gün)
 
-#Gebe Kalma Durumu
+# Gebe Kalma Durumu
 -Çiftleşen dişi tavşanların hamile kalma ihtimalleri hamilelik oranı ile hesaplanır (%76)
 -Gebelik süresi (10 gün)
 
-#Doğum
+# Doğum
 -Gebelik süresinin sonuna gelmiş olan tavşan yaşı ile orantılı olarak yavru vermektedir. Bu oran tavşanın verimli yaşına yakınlığı yada uzaklığı ile doğru orantılı olarak random bulunur.(İdeal Yaş 150 gün).
 -Gebelik döneminde her bir yavrunun dişi yada erkek olma olasılığı %50 olarak eşit dağıtılmıştır.
 
-#Ölüm
+# Ölüm
 -Her döngüde tavşanların ölümü gerçekleşebilir.Bu olay ise tavşanın verimli yaşına yakınlığı ile doğru orantılıdır. İdeal yaşına uzak olan tavşan ölüm ihtimali yükselmektedir.(İdeal Yaş 150 gün).
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
