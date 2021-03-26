@@ -19,7 +19,7 @@ namespace CoopSimulator
     {
         public class SimulatorApp
         {
-            public DateTime StartDate { get; set; } = new DateTime(2021, 01, 01);
+            public DateTime StartDate { get; set; } = new DateTime(2021, 03, 25);
             public DateTime EndDate { get; set; }
             public List<IPoultry> PoultryList { get; set; }
             public SimulatorApp()
@@ -51,7 +51,6 @@ namespace CoopSimulator
                 int maleRabbitNumber = PoultryList.Count() - femaleRabbitNumber;
 
                 Console.WriteLine("Dişi tavşan sayısı = {0}", femaleRabbitNumber);
-                Console.Read();
                 Console.WriteLine("Erkek tavşan sayısı = {0}", maleRabbitNumber);
                 Console.Read();
 
